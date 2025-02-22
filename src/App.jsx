@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../componentes/Home";
 import Register from "../componentes/Register";
-import Login from "../componentes/Login"; //HASHROUTER
+import Login from "../componentes/Login";
 import Private from "../componentes/Private";
 import Content from "../componentes/Content";
 import { AuthProvider } from "../componentes/AuthContext";
